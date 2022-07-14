@@ -1,0 +1,85 @@
+.navbar {
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    a {
+        text-decoration: none;
+    }
+
+    @media screen and (max-width: 768px) {
+        max-width: 768px;
+        width: 100%;
+        margin: 0px;
+    }
+
+    &__logo {
+        width: 258px;
+        height: 24px;
+        font: normal 900 22px $Montserrat;
+        line-height: 26.82px;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        text-decoration: none;
+
+    }
+
+    &__logo--name {
+        font: normal 900 22px $Montserrat;
+
+        @media screen and (max-width: 768px) {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    &__logo--here {
+        font: normal 300 22px $Montserrat;
+
+        @media screen and (max-width: 768px) {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    &__logo--period {
+        color: $actionColor;
+
+        @media screen and (max-width: 768px) {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        gap: 4px;
+        justify-content: space-around;
+        gap: 4px;
+        width: 164px;
+        height: 24px;
+        border: 2px solid yellowgreen;
+    }
+
+    .menu-item {
+        display: inline-block;
+        text-transform: capitalize;
+        width: 80px;
+        height: 24px;
+        font: normal 500 20px $Zilla;
+        line-height: 24px;
+        color: $darkColor;
+
+        &.current_page_item {
+            a {
+                color: $actionColor;
+            }
+        }
+    }
+}

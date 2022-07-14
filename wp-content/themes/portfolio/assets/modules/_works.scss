@@ -1,0 +1,55 @@
+.work-section {
+    max-width: 874px;
+    width: 100%;
+    margin: 0 auto;
+
+    &--two {
+    max-width: 874px;
+    width: 100%;
+    margin: 0 auto;
+    }
+
+    &__title {
+        border: 2px solid yellowgreen;
+        height: 27px;
+        font: normal 400 22px $Montserrat;
+        line-height: 27px;
+        color: $darkColor;
+
+        @media screen and (max-width: 768px) {
+           width: 100%;
+           text-align: center;
+           padding: 0 18px;
+        }
+
+    }
+
+    &__title--two {
+        max-width: 858px;
+        width: 100%;
+        height: 43px;
+        font: normal 800 44px $Montserrat;
+        line-height: 57px;
+        margin: 56px auto 0 auto;
+        
+        @media screen and (max-width: 768px) {
+            padding: 0 16px;
+            text-align: center;
+        }
+    }
+
+    &__cards {
+        max-width: 874px;
+        width: 100%;
+        margin: 60px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        border: 2px solid red;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+}
