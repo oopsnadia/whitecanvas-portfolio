@@ -13,8 +13,6 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
 
-    <div class="container">
+    <?php get_template_part('template-parts/modules/module', 'navbar'); ?>
 
-        <?php get_template_part('template-parts/modules/module', 'navbar'); ?>
-
-        <main class='modules'>
+    <main class='modules'>

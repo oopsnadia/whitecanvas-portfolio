@@ -129,6 +129,7 @@
 .hero__text-box {
   width: 538px;
   height: 283px;
+  margin-right: 132px;
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .hero__text-box {
@@ -174,7 +175,6 @@
 }
 .hero__image {
   width: 100%;
-  margin-left: 132px;
   filter: drop-shadow(9.76px 9.76px #EBEBEB);
 }
 .hero__image img {

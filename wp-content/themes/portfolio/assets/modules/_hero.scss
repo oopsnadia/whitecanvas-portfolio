@@ -28,6 +28,7 @@
     &__text-box {
         width: 538px;
         height: 283px;
+        margin-right: 132px;
 
         @media screen and (min-width: 769px) and (max-width: 1024px) {
             width: 100%;
@@ -72,14 +73,12 @@
 
     &__image {
         width: 100%;
-        margin-left: 132px;
         filter: drop-shadow(9.76px 9.76px #EBEBEB);
 
         img {
             width: 415.96px;
             height: 280.24px;
-
-
+            
             @media screen and (max-width: 768px) {
                 width: 343px;
                 height: 195px;
