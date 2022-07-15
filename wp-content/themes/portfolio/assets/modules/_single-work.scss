@@ -10,6 +10,11 @@
     list-style: none;
     margin: 70px auto 0 auto;
 
+    a {
+        text-decoration: none;
+        color: $darkColor;
+    }
+
     @media screen and (min-width: 768px) and (max-width: 1024px) {
         padding: 0 18px;
     }

@@ -713,6 +713,10 @@
   list-style: none;
   margin: 70px auto 0 auto;
 }
+.breadcrumb a {
+  text-decoration: none;
+  color: #21243D;
+}
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .breadcrumb {
     padding: 0 18px;
