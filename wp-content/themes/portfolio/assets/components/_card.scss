@@ -5,7 +5,6 @@
     flex-direction: row;
     gap: 18px;
     border-bottom: 1px solid $borderColor;
-    border: 2px solid red;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
