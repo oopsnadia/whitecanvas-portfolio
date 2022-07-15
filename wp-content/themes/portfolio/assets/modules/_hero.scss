@@ -11,8 +11,7 @@
 
     @media screen and (min-width: 376px) and (max-width: 768px) {
         width: 100%;
-        height: auto;
-
+        margin-top: 300px;
         flex-direction: column-reverse;
         text-align: center;
         padding: 0 15px;
@@ -70,12 +69,16 @@
         }
     }
 
+
     &__image {
         width: 100%;
+        margin-left: 132px;
+        filter: drop-shadow(9.76px 9.76px #EBEBEB);
 
         img {
             width: 415.96px;
             height: 280.24px;
+
 
             @media screen and (max-width: 768px) {
                 width: 343px;
@@ -86,6 +89,8 @@
             }
         }
     }
+
+
 
     .button {
         box-sizing: border-box;
