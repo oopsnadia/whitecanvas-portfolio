@@ -111,7 +111,8 @@
 @media screen and (min-width: 376px) and (max-width: 768px) {
   .hero {
     width: 100%;
-    margin-top: 300px;
+    height: auto;
+    margin-top: 43px;
     flex-direction: column-reverse;
     text-align: center;
     padding: 0 15px;
@@ -120,7 +121,8 @@
 @media screen and (max-width: 375px) {
   .hero {
     width: 343px;
-    margin-top: 300px;
+    height: auto;
+    margin-top: 43px;
     flex-direction: column-reverse;
     text-align: center;
     padding: 0 15px;
