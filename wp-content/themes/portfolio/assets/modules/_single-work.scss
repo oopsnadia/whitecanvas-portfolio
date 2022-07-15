@@ -10,23 +10,27 @@
     list-style: none;
     margin: 70px auto 0 auto;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        padding: 0 18px;
+    }
+
+    @media screen and (max-width: 767px) {
         display: none;
     }
 
     a {
-    font: normal 400 14px $Zilla;
+        font: normal 400 14px $Zilla;
 
-    &--link {
-        font: normal 600 14px $Zilla;
-        text-decoration: none;
-    }
+        &--link {
+            font: normal 600 14px $Zilla;
+            text-decoration: none;
+        }
 
-    &__icon {
-        width: 16px;
-        height: 16px;
+        &__icon {
+            width: 16px;
+            height: 16px;
+        }
     }
-}
 }
 
 /*****************************************/
@@ -36,6 +40,14 @@
     width: 100%;
     height: 158px;
     margin: 0 auto;
+
+    @media screen and (min-width: 456px) and (max-width: 920px) {
+        padding: 0 18px;
+    }
+
+    @media screen and (max-width: 455px) {
+        margin-top: 45px;
+    }
 }
 
 .single-work {
@@ -45,10 +57,10 @@
     display: flex;
     flex-direction: column;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 920px) {
         padding: 0 18px;
     }
-    
+
     h2 {
         width: 677px;
         height: 45px;

@@ -1,10 +1,10 @@
-@import "../assets/modules/variables";
-@import "../assets/modules/body";
+@import "../assets/global/variables";
+@import "../assets/global/body";
 @import "../assets/modules/navbar";
 @import "../assets/modules/hero";
-@import "../assets/modules/skills";
-@import "../assets/modules/card";
+@import "../assets/components/skills";
+@import "../assets/components/card";
 @import "../assets/modules/about";
-@import "../assets/modules/works";
+@import "../assets/components/works";
 @import "../assets/modules/single-work";
 @import "../assets/modules/footer";

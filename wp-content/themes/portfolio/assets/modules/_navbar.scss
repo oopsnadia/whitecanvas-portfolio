@@ -1,10 +1,9 @@
 .navbar {
     max-width: 1440px;
-    margin: 0 auto;
-    border: 2px solid red;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    padding: 60px 40px;
+    margin: 0 auto;
 
     a {
         text-decoration: none;
@@ -14,6 +13,8 @@
         max-width: 768px;
         width: 100%;
         margin: 0px;
+        height: auto;
+        padding: 13px 16px;
     }
 
     &__logo {
@@ -64,7 +65,10 @@
         gap: 4px;
         width: 164px;
         height: 24px;
-        border: 2px solid yellowgreen;
+
+        @media screen and (max-width: 768px) {
+            width: 104px;
+        }
     }
 
     .menu-item {
@@ -75,6 +79,11 @@
         font: normal 500 20px $Zilla;
         line-height: 24px;
         color: $darkColor;
+
+        @media screen and (max-width: 768px) {
+            font-size: 16px;
+            line-height: 19px;
+        }
 
         &.current_page_item {
             a {

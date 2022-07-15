@@ -1,6 +1,6 @@
    <?php
 
-    $skillsSectionTitle = get_field('$skills_section_title');
+    $skillsSectionTitle = get_field('skills_section_title');
 
     ?>
 

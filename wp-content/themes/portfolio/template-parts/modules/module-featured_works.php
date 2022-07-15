@@ -12,7 +12,7 @@ $works = new WP_Query($args_works);
 
 <!-- Featured Works -->
 <section class="work-section">
-    <h5 class="work-section__title"><?php echo esc_html($featuredWorksTitle); ?></h5>
+    <h4 class="work-section__title"><?php echo esc_html($featuredWorksTitle); ?></h4>
     <div class="work-section__cards">
         <?php
         if ($works->have_posts()) {
